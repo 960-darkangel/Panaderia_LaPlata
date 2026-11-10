@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar venta - Panadería</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Panadería La Plata</h1>
+        <p>Sistema de Gestión</p>
+    </header>
+
+    <main class="contenedor-productos">
+        <h2>Registrar una venta</h2>
+        <p>Seleccione los productos y las cantidades solicitadas.</p>
+
+        <form class="formulario">
+            <label for="producto">Producto:</label>
+            <select id="producto">
+                <option>Seleccione un producto</option>
+                <option>Pan francés - $2500 por kg</option>
+                <option>Medialuna - $500 por unidad</option>
+                <option>Factura con crema - $600 por unidad</option>
+                <option>Pan integral - $3000 por kg</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" min="1"
+                   placeholder="Ingrese la cantidad">
+
+            <button type="button">Agregar producto</button>
+        </form>
+
+        <h3>Detalle de la venta</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio unitario</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pan francés</td>
+                    <td>2 kg</td>
+                    <td>$2500</td>
+                    <td>$5000</td>
+                </tr>
+                <tr>
+                    <td>Medialuna</td>
+                    <td>6</td>
+                    <td>$500</td>
+                    <td>$3000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="total">Total: $8000</h3>
+
+        <div class="acciones">
+            <button type="button">Confirmar venta</button>
+            <a href="index.html" class="boton-secundario">
+                Cancelar
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Sistema de Gestión provisional de Panadería La Plata</p>
+    </footer>
+</body>
+</html>

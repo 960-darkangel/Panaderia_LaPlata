@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eee5;
+    color: #493323;
+}
+
+header {
+    background-color: #70452c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 12px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+button {
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #a66b42;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #70452c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #70452c;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.formulario input,
+.formulario select {
+    padding: 12px;
+    border: 1px solid #cbb9a8;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fffdfb;
+}
+
+.acciones {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.boton-secundario {
+    display: inline-block;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #ddd0c3;
+    color: #493323;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton-menu {
+    display: block;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #a66b42;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boton-menu:hover {
+    background-color: #70452c;
+}
+
+
+.contenedor-productos {
+    max-width: 950px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+th {
+    background-color: #70452c;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid #ddd0c3;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5eee5;
+}
+
+tbody tr:hover {
+    background-color: #ead9c7;
+}
+
+
+h3 {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.total {
+    text-align: right;
+    color: #70452c;
+    font-size: 22px;
+}

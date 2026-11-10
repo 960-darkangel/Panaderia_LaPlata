@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar precio - Panadería</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Panadería La Plata</h1>
+        <p>Sistema de Gestión</p>
+    </header>
+
+    <main>
+        <h2>Modificar precio</h2>
+        <p>Actualice el precio de un producto registrado.</p>
+
+        <form class="formulario">
+            <label for="codigo">Código del producto:</label>
+            <input type="number" id="codigo"
+                   placeholder="Ingrese el código">
+
+            <label for="precio-actual">Precio actual:</label>
+            <input type="number" id="precio-actual"
+                   value="2500" disabled>
+
+            <label for="nuevo-precio">Nuevo precio:</label>
+            <input type="number" id="nuevo-precio" min="0.01"
+                   step="0.01" placeholder="Ingrese el nuevo precio">
+
+            <div class="acciones">
+                <button type="button">Guardar cambios</button>
+                <a href="index.html" class="boton-secundario">
+                    Volver al menú
+                </a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Sistema de Gestión provisional de Panadería La Plata</p>
+    </footer>
+</body>
+</html>
