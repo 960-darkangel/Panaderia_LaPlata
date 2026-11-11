@@ -18,10 +18,8 @@ def leer_numero(mensaje):
         except ValueError:
             print("Error: debe ingresar un valor numérico.")
 
-# Creamos el inventario.
 inventario = Inventario()
 
-# Cargamos algunos productos iniciales.
 inventario.agregar_producto(
     Pan(1, "Pan francés", 2500, 15, "kg", "000")
 )
@@ -35,7 +33,6 @@ inventario.agregar_producto(
 )
 
 
-# Número de venta.
 numero_venta = 1
 historial_ventas = []
 
@@ -63,7 +60,7 @@ def consultar_ventas():
         print("-------------------------")
 
 def mostrar_menu():
-    print("\n===== PANADERÍA TRADICIONAL =====")
+    print("\n===== PANADERÍA LA PLATA =====")
     print("1. Mostrar productos")
     print("2. Registrar una venta")
     print("3. Consultar stock")
@@ -220,7 +217,6 @@ def actualizar_stock():
         print("No se pudo actualizar el stock.")
 
 
-# Programa principal.
 while True:
     mostrar_menu()
     opcion = input("Seleccione una opción: ")
