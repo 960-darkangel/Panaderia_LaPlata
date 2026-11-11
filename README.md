@@ -1,3 +1,4 @@
+
 # Sistema de Gestión de Panadería La Plata
 
 Proyecto desarrollado en Python para la gestión de productos, inventario y ventas de una panadería tradicional.
