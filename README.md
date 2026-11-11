@@ -1,5 +1,3 @@
-# Panaderia_LaPlata
-
 # Sistema de Gestión de Panadería La Plata
 
 Proyecto desarrollado en Python para la gestión de productos, inventario y ventas de una panadería tradicional.
@@ -76,5 +74,3 @@ La carpeta `diseños/` contiene prototipos visuales estáticos realizados con HT
 Trabajo práctico realizado para la carrera Analista de Sistemas.
 
 **Materia:** Algoritmos y Estructuras de Datos III.
-
-(Es provisional)
